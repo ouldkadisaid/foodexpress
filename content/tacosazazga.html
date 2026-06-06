@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tacos Azazga</title>
+    <link rel="stylesheet" href="../styles/menu.css">
+</head>
+
+<body>
+    <section class="menu">
+        <h2>Nos Tacos</h2>
+        <div class="menu-grid">
+
+            <div class="menu-card">
+                <img src="../images/tacos/chevremiel.png" alt="Chèvre et Miel">
+                <div class="menu-info">
+                    <h3>Chèvre et Miel</h3>
+                    <p>Poulet, sauce fromagère, fromage de chèvre, miel, gratiné cheddar.</p>
+                    <div class="bottom">
+                        <span class="prix">700 DA</span>
+                        <button onclick="ajouterAuPanier('Chèvre et Miel', 700)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/tacos/indien.png" alt="L'Indien">
+                <div class="menu-info">
+                    <h3>L'Indien</h3>
+                    <p>Tenders, sauce curry, salami, gratiné cheddar.</p>
+                    <div class="bottom">
+                        <span class="prix">750 DA</span>
+                        <button onclick="ajouterAuPanier('L\'Indien', 750)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/tacos/suisse.png" alt="Le Suisse">
+                <div class="menu-info">
+                    <h3>Le Suisse</h3>
+                    <p>Escalope de poulet, fromage fondu, jambon de dinde, oignons caramélisés.</p>
+                    <div class="bottom">
+                        <span class="prix">700 DA</span>
+                        <button onclick="ajouterAuPanier('Le Suisse', 700)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/tacos/fume.png" alt="Le Fumé">
+                <div class="menu-info">
+                    <h3>Le Fumé</h3>
+                    <p>Tenders, sauce barbecue, gratiné cheddar, poulet fumé.</p>
+                    <div class="bottom">
+                        <span class="prix">750 DA</span>
+                        <button onclick="ajouterAuPanier('Le Fumé', 750)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/tacos/frenchy.png" alt="Le Frenchy">
+                <div class="menu-info">
+                    <h3>Le Frenchy</h3>
+                    <p>Viande hachée, oignons caramélisés, gratiné cheddar, camembert.</p>
+                    <div class="bottom">
+                        <span class="prix">900 DA</span>
+                        <button onclick="ajouterAuPanier('Le Frenchy', 900)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/tacos/forestier.png" alt="Le Forestier">
+                <div class="menu-info">
+                    <h3>Le Forestier</h3>
+                    <p>Viande hachée, gouda, oignons caramélisés, champignons.</p>
+                    <div class="bottom">
+                        <span class="prix">800 DA</span>
+                        <button onclick="ajouterAuPanier('Le Forestier', 800)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="restaurant-info">
+        <div><h3>⭐ Note</h3><p>4.2 / 5</p></div>
+        <div><h3>🚚 Livraison</h3><p>15 - 30 min</p></div>
+        <div><h3>💰 Minimum</h3><p>300 DA</p></div>
+    </section>
+
+    <a href="panier.html" class="panier-btn">🛒 Voir le panier</a>
+    <script src="../js/menu.js"></script>
+</body>
+</html>

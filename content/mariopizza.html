@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza House</title>
+    <link rel="stylesheet" href="../styles/menu.css">
+</head>
+
+<body>
+    <section class="menu">
+        <h2>Notre Menu Pizza</h2>
+        <div class="menu-grid">
+
+            <div class="menu-card">
+                <img src="../images/pizza/margerite.png" alt="Margherita">
+                <div class="menu-info">
+                    <h3>Margherita</h3>
+                    <p>Sauce Tomate, Cheddar, Mozzarella, Olives</p>
+                    <div class="bottom">
+                        <span class="prix">450 DA</span>
+                        <button onclick="ajouterAuPanier('Margherita', 450)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/pizza/napolitainne.png" alt="Napolitaine">
+                <div class="menu-info">
+                    <h3>Napolitaine</h3>
+                    <p>Sauce Tomate, Cheddar, Mozzarella, Olives, Anchois, Câpres</p>
+                    <div class="bottom">
+                        <span class="prix">550 DA</span>
+                        <button onclick="ajouterAuPanier('Napolitaine', 550)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/pizza/vege.png" alt="Végétarienne">
+                <div class="menu-info">
+                    <h3>Végétarienne</h3>
+                    <p>Sauce Tomate, Cheddar, Mozzarella, Olives, Poivron, Oignons, Tomate, Aubergine, Champignons frais</p>
+                    <div class="bottom">
+                        <span class="prix">600 DA</span>
+                        <button onclick="ajouterAuPanier('Végétarienne', 600)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/pizza/mergeuz.png" alt="Merguez">
+                <div class="menu-info">
+                    <h3>Merguez</h3>
+                    <p>Sauce Tomate, Cheddar, Mozzarella, Olives, Merguez</p>
+                    <div class="bottom">
+                        <span class="prix">700 DA</span>
+                        <button onclick="ajouterAuPanier('Merguez', 700)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/pizza/thon.png" alt="Thon">
+                <div class="menu-info">
+                    <h3>Thon</h3>
+                    <p>Sauce Tomate, Cheddar, Mozzarella, Olives, Thon</p>
+                    <div class="bottom">
+                        <span class="prix">700 DA</span>
+                        <button onclick="ajouterAuPanier('Thon', 700)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/pizza/poulet.png" alt="Poulet">
+                <div class="menu-info">
+                    <h3>Poulet</h3>
+                    <p>Sauce Tomate ou Blanche, Cheddar, Mozzarella, Poulet, Olives</p>
+                    <div class="bottom">
+                        <span class="prix">700 DA</span>
+                        <button onclick="ajouterAuPanier('Poulet', 700)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/pizza/viandehache.png" alt="Fumato Viande">
+                <div class="menu-info">
+                    <h3>Fumato Viande</h3>
+                    <p>Sauce Tomate, Cheddar, Mozzarella, Olives, Viande Fumée</p>
+                    <div class="bottom">
+                        <span class="prix">750 DA</span>
+                        <button onclick="ajouterAuPanier('Fumato Viande', 750)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="restaurant-info">
+        <div><h3>⭐ Note</h3><p>4.2 / 5</p></div>
+        <div><h3>🚚 Livraison</h3><p>15 - 30 min</p></div>
+        <div><h3>💰 Minimum</h3><p>300 DA</p></div>
+    </section>
+
+    <a href="panier.html" class="panier-btn">🛒 Voir le panier</a>
+    <script src="../js/menu.js"></script>
+</body>
+</html>

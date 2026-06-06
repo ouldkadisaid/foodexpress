@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Le 77</title>
+    <link rel="stylesheet" href="../styles/menu.css">
+</head>
+
+<body>
+
+    <section class="menu">
+        <h2>Nos Sandwichs</h2>
+
+        <div class="menu-grid">
+            <div class="menu-card">
+                <img src="../images/77/jaune.png" alt="">
+                <div class="menu-info">
+                    <h3>Spécial Jaune</h3>
+                    <p>Pain maison, poulet curry,cheddar, crudités</p>
+                    <div class="bottom">
+                        <span class="prix">550 DA</span>                                                    
+                        <button onclick="ajouterAuPanier('Spécial Jaune',550)">Ajouter</button>
+                    </div>        
+                </div>        
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/77/rouge.png" alt="">
+                <div class="menu-info">
+                    <h3>Spécial Rouge</h3>
+                    <p>Poulet tandoori,cheddar et crudités</p>                                                
+                    <div class="bottom">
+                        <span class="prix">550 DA </span>                                                   
+                        <button onclick="ajouterAuPanier('Spécial Rouge',550)"> Ajouter</button>
+                    </div>       
+                </div>                                          
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/77/rs4.png" alt="">
+                <div class="menu-info">
+                    <h3>RS4</h3>
+                    <p>Viande hachée,poulet fumé,œuf et cheddar</p>                                                                                           
+                    <div class="bottom">
+                        <span class="prix">600 DA </span>                                                   
+                        <button onclick="ajouterAuPanier('RS4',600)">Ajouter</button>                                               
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/77/mixte.png" alt="">
+                <div class="menu-info">
+                    <h3>Spécial Mixte</h3>
+                    <p>Poulet curry,poulet tandoori,cheddar</p>
+                    <div class="bottom">
+                        <span class="prix">600 DA</span>
+                        <button onclick="ajouterAuPanier('Spécial Mixte',600)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/77/escalope.png" alt="">
+                <div class="menu-info">
+                    <h3>Spécial Escalope</h3>
+                    <p>Escalope, cheddar,crudités</p>
+                    <div class="bottom">
+                        <span class="prix">650 DA</span>
+                        <button onclick="ajouterAuPanier('Spécial Escalope',650)">Ajouter </button>                                                   
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/77/boursin.png" alt="">
+                <div class="menu-info">
+                    <h3>Spécial Boursin</h3>
+                    <p>Poulet mariné,cheddar, Boursin</p>   
+                    <div class="bottom">
+                        <span class="prix">650 DA</span>
+                        <button onclick="ajouterAuPanier('Spécial Boursin',650)">Ajouter</button>                                                                                                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/77/bvs.png" alt="">
+                <div class="menu-info">
+                    <h3>Spécial BVS</h3>
+                    <p>Escalope,viande hachée,œuf et cheddar.</p>
+                    <div class="bottom"></div>    
+                        <span class="prix">700 DA</span>
+                        <button onclick="ajouterAuPanier('Spécial BVS',700)">Ajouter</button></div>
+                    </div>                                                                                                                                                
+            </div>
+        </div>
+    </section>
+
+    <section class="restaurant-info">
+        <div><h3>⭐ Note</h3><p>4.2 / 5</p></div>  
+        <div><h3>🚚 Livraison</h3><p>15 - 30 min</p></div> 
+        <div> <h3>💰 Minimum</h3><p>300 DA</p></div>
+    </section>
+    
+    <a href="panier.html" class="panier-btn">🛒 Voir le panier</a>
+    <script src="../js/menu.js"></script>
+
+</body>
+</html>

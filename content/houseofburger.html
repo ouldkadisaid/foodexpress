@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>HoB</title>
+    <link rel="stylesheet" href="../styles/menu.css">
+</head>
+
+<body>
+<section class="menu">
+    <h2>Our Menu</h2>
+
+    <div class="menu-grid">
+
+        <div class="menu-card">
+            <img src="../images/burger/alabama.png" alt="">
+            <div class="menu-info">
+                <h3>Alabama</h3>
+                <p>Steak haché, cheddar, salade, tomate.</p>
+                <div class="bottom">
+                    <span class="prix">650 DA</span>
+                    <button onclick="ajouterAuPanier('Alabama',650)"> Ajouter </button>     
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="../images/burger/elpaso.png" alt="">
+            <div class="menu-info">
+                <h3>El Paso</h3>
+                <p>Double steak, fromage fondant.</p>
+                <div class="bottom">
+                    <span class="prix">750 DA</span>
+                    <button onclick="ajouterAuPanier('El Paso',750)">Ajouter</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="../images/burger/newyork.png" alt="">
+            <div class="menu-info">
+                <h3>New York</h3>
+                <p>Burger classique avec sauce maison.</p>
+                <div class="bottom">
+                    <span class="prix">600 DA</span>
+                    <button onclick="ajouterAuPanier('New York',600)">Ajouter</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="../images/burger/jackpot.png" alt="">
+            <div class="menu-info">
+                <h3>Jackpot</h3>
+                <p>Le burger signature de Burger House.</p>
+                <div class="bottom">
+                    <span class="prix">1200 DA</span>
+                    <button onclick="ajouterAuPanier('Jackpot',1200)">Ajouter</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="../images/burger/crispy.png" alt="">
+            <div class="menu-info">
+                <h3>Kentucky</h3>
+                <p>Burger crispy chicken.</p>
+                <div class="bottom">
+                    <span class="prix">650 DA</span>
+                    <button onclick="ajouterAuPanier('Kentucky',650)">Ajouter</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="../images/burger/buffalo.png" alt="">
+            <div class="menu-info">
+                <h3>Buffalo</h3>
+                <p>Steak, cheddar et sauce buffalo.</p>
+                <div class="bottom">
+                    <span class="prix">500 DA</span>
+                    <button onclick="ajouterAuPanier('Buffalo',500)">Ajouter</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="../images/burger/newyork.png" alt="">
+            <div class="menu-info">
+                <h3>California</h3>
+                <p>Burger frais avec légumes croquants.</p>
+                <div class="bottom">
+                    <span class="prix">500 DA</span>
+                    <button onclick="ajouterAuPanier('California',500)">Ajouter</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="../images/burger/hotdog.png" alt="">
+            <div class="menu-info">
+                <h3>Hot Dog</h3>
+                <div class="bottom">
+                    <span class="prix">350 DA</span>
+                    <button onclick="ajouterAuPanier('Hot Dog',300)">Ajouter</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <section class="restaurant-info">
+        <div><h3>⭐ Note</h3><p>4.2 / 5</p></div>  
+        <div><h3>🚚 Livraison</h3><p>15 - 30 min</p></div> 
+        <div> <h3>💰 Minimum</h3><p>300 DA</p></div>
+    </section>
+
+    <a href="panier.html" class="panier-btn">🛒 Voir le panier</a>
+    <script src="../js/menu.js"></script>
+
+</body>
+</html>

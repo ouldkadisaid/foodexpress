@@ -1,0 +1,44 @@
+body {
+    background: #F8F6EF;
+    font-family: Arial;
+    margin: 0;
+    padding: 40px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%;
+}
+
+h1 { color: #1F7A45;}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    /* Plus besoin de flex ici */
+}
+
+input {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+button {
+    width: 300px;
+    margin-top: 25px;
+    padding: 15px;
+    background: #1F7A45;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {background: #166238;}

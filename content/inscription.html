@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Authentification</title>
+    <link rel="stylesheet" href="../styles/auth.css">
+</head>
+
+<body>
+
+    
+  
+    <form action="authentification.php" method="POST">
+ <h2>Rejoignez FoodExpress 🚀</h2>
+
+<p class="subtitle">
+    Créez votre compte et commencez à commander vos plats préférés.
+</p>
+        <label for="Nom">Nom</label>
+        <input type="text" id="Nom" name="Nom" placeholder="Entrez votre nom" required>
+            
+                 <br><br>   
+           
+
+
+
+        <label for="Prenom">Prénom</label>
+        <input type="text"  id="Prenom" name="Prenom"  placeholder="Entrez votre prénom" required >
+
+        <br><br>
+
+        <label for="Numtel">Numéro de téléphone</label>
+        <input
+            type="tel"
+            id="Numtel"
+            name="Numtel"
+            placeholder="0550123456"
+            required
+        >
+
+        <br><br>
+
+        <label for="mdp">Mot de passe</label>
+        <input type="password" id="mdp" name="mdp" placeholder="Entrez votre mot de passe"
+            required >
+            
+        <br><br>    
+  
+        <label for="vmdp">Confirmer le mot de passe</label>
+        <input type="password" id="vmdp" name="vmdp" placeholder="Confirmez votre mot de passe"
+            required >
+        <br><br>
+        <input type="submit" value="S'inscrire">
+        
+    </form>
+</body>
+</html>

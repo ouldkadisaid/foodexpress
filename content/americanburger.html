@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>American Burger </title>
+    <link rel="stylesheet" href="../styles/menu.css">
+</head>
+
+<body>
+    <section class="menu">
+        <h2>Burgers</h2>
+        <div class="menu-grid">
+
+            <div class="menu-card">
+                <img src="../images/americanburger/simple.png" alt="Classic Burger">
+                <div class="menu-info">
+                    <h3>Classic</h3>
+                    <p>100 gr viande hachée, salade, tomate, oignons, cornichon, cheddar, sauce burger.</p>
+                    <div class="bottom">
+                        <span class="prix">500 DA</span>
+                        <button onclick="ajouterAuPanier('Classic Burger', 500)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/americanburger/egg.png" alt="Egg Burger">
+                <div class="menu-info">
+                    <h3>Egg</h3>
+                    <p>100 gr viande hachée, œuf, salade, tomate, cheddar, sauce burger.</p>
+                    <div class="bottom">
+                        <span class="prix">600 DA</span>
+                        <button onclick="ajouterAuPanier('Egg Burger', 600)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/americanburger/fish.png" alt="Fish Burger">
+                <div class="menu-info">
+                    <h3>Fish Burger</h3>
+                    <p>100 gr poisson pané, salade, tomate, cheddar, sauce tartar.</p>
+                    <div class="bottom">
+                        <span class="prix">550 DA</span>
+                        <button onclick="ajouterAuPanier('Fish Burger', 550)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/americanburger/forest.png" alt="Forest Burger">
+                <div class="menu-info">
+                    <h3>Forest</h3>
+                    <p>100 gr viande hachée, salade, tomate, oignons caramélisés, champignons, cheddar, sauce burger.</p>
+                    <div class="bottom">
+                        <span class="prix">600 DA</span>
+                        <button onclick="ajouterAuPanier('Forest Burger', 600)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/americanburger/hollondia.png" alt="Hollandia Burger">
+                <div class="menu-info">
+                    <h3>Hollandia</h3>
+                    <p>100 gr viande hachée, salade, tomate, oignons caramélisés, camembert & miel.</p>
+                    <div class="bottom">
+                        <span class="prix">600 DA</span>
+                        <button onclick="ajouterAuPanier('Hollandia Burger', 600)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/americanburger/smash.png" alt="Smash Burger">
+                <div class="menu-info">
+                    <h3>Smash Burger</h3>
+                    <p>Fromage, cornichon, crispy oignons, sauce viande.</p>
+                    <div class="bottom">
+                        <span class="prix">550 DA</span>
+                        <button onclick="ajouterAuPanier('Smash Burger', 550)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu">
+        <h2>Fries & Extras</h2>
+        <div class="menu-grid">
+
+            <div class="menu-card">
+                <img src="../images/americanburger/frites.png" alt="Frites">
+                <div class="menu-info">
+                    <h3>Frites</h3>
+                    <p>Portion de frites croustillantes dorées.</p>
+                    <div class="bottom">
+                        <span class="prix">200 DA</span>
+                        <button onclick="ajouterAuPanier('Frites', 200)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/americanburger/wet.png" alt="Wet Fries">
+                <div class="menu-info">
+                    <h3>Wet Fries</h3>
+                    <p>Frites nappées d'une généreuse sauce au fromage fondu.</p>
+                    <div class="bottom">
+                        <span class="prix">350 DA</span>
+                        <button onclick="ajouterAuPanier('Wet Fries', 350)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="../images/americanburger/combo.png" alt="Combo Fries">
+                <div class="menu-info">
+                    <h3>Combo Fries</h3>
+                    <p>x2 tendres + x2 fish fingers + x2 beignets crabe.</p>
+                    <div class="bottom">
+                        <span class="prix">650 DA</span>
+                        <button onclick="ajouterAuPanier('Combo Fries', 650)">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="restaurant-info">
+        <div><h3>⭐ Note</h3><p>4.2 / 5</p></div>  
+        <div><h3>🚚 Livraison</h3><p>15 - 30 min</p></div> 
+        <div> <h3>💰 Minimum</h3><p>300 DA</p></div>
+    </section>
+
+    <a href="panier.html" class="panier-btn">🛒 Voir le panier</a>
+    <script src="../js/menu.js"></script>
+</body>
+</html>
